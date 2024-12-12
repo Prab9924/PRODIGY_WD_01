@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(rgba(0, 0, 100, 0.5), rgba(0, 0, 100, 0.5)), 
+                url('img/desktop.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    line-height: 60px;
+    background: transparent; 
+    z-index: 1000;
+}
+
+nav ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 42px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 32px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; 
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ff9900; 
+}
+.logo{
+    height: 48px;
+    float: left;
+    margin: 16px 48px;
+}
+
+h1{
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 350px;
+    color: #fff;
+
+}
+
+#home{
+    background: linear-gradient(45deg, blueviolet,rgb(142,8,19));
+}
+#about{
+    background: linear-gradient(45deg, rgb(73,8,176),rgb(162,185,17));
+}
+#products{
+    background: linear-gradient(45deg, rgb(92, 9, 169),rgb(26,227,49));
+}
+#services{
+    background: linear-gradient(45deg, rgb(57, 3, 108),rgb(179, 32, 190));
+}
+#contacts{
+    background: linear-gradient(45deg, rgb(51, 20, 80),rgb(54, 105, 176));
+}
+
+.active {
+    background: #000;
+    color: blueviolet;
+    box-shadow: 0px 0px 20px 2px #222;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.sections {
+    height: 880px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, blueviolet, rgb(147, 13, 98));
+}
+
+h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    backdrop-filter: blur(2px);
+    box-shadow: 0px 0px 5px 2px white;
+    z-index: 0;
+}
